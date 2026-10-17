@@ -36,6 +36,6 @@ module.exports = {
   SUPABASE_URL: process.env.SUPABASE_URL || '',
   SUPABASE_SERVICE_ROLE_KEY: process.env.SUPABASE_SERVICE_ROLE_KEY || '',
   ALLOWED_ORIGINS: process.env.ALLOWED_ORIGINS || '*',
-  API_URL: process.env.API_URL || 'http://localhost:5000',
+  API_URL: process.env.API_URL || 'http://localhost:5000,https://agrimfinal.netlify.app,https://agrimartfinal.netlify.app',
   LOG_LEVEL: process.env.LOG_LEVEL || (NODE_ENV === 'production' ? 'info' : 'debug'),
 };
