@@ -1,5 +1,5 @@
 const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || 'https://online-agriculture-market-place.onrender.com';
+  process.env.NEXT_PUBLIC_API_URL || 'https://agrimart-ppn2.onrender.com';
 const TOKEN_KEY = 'agrimart_token';
 
 // Product/profile images come back from the backend two ways:
